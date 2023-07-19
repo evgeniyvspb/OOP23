@@ -1,7 +1,7 @@
-public class Salmon extends Animal {
+public class Salmon extends Animal implements Swimable {
     
     @Override
-    public void  toGo(){
-        System.out.println("Я не умею ходить! Я ведь рыба");
+    public void swim(Integer speed){
+        System.out.println("Я умею плавать со скоростью" +  speed);
     }
 }

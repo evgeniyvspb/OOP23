@@ -1,11 +1,12 @@
-public class owl extends Animal {
+public class owl extends Animal implements Flyable, Illable {
    
     @Override
-    public void toGo(){
-        System.out.println(" Я умею ходить, но медленно. Я ведь птица у -у-у у");
+    public void ill() {
+        System.out.println("I am ill");
     }
+
     @Override
-    public void swim(){
-        System.out.println(" Я не умею плавать. Я же сова");
+    public void fly() {
+        System.out.println("I am flying very well");
     }
 }

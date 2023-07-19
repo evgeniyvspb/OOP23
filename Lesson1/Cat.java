@@ -1,4 +1,4 @@
-public class Cat extends Animal {
+public class Cat extends Animal implements Runnable, Illable {
     private int countPaws;
     
     public Cat (){
@@ -27,14 +27,16 @@ public class Cat extends Animal {
     eat ();
     sleep();
    }
-    @Override
-    public void fly() {
-       System.out.println(" Я не умею летать! Хотя..."); 
-    }
 
-     @Override
-    public void swim() {
-       System.out.println(" Я не умею плавать! Только царапаться"); 
+    
+
+    @Override
+    public void run(Integer speed) {
+        System.out.println("I can run with a speed " + speed);
+    }
+    @Override
+    public void ill() {
+        System.out.println("I am ill");
     }
 
 
