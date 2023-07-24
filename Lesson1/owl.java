@@ -1,3 +1,6 @@
+import Lesson2.Flyable;
+import Lesson2.Illable;
+
 public class owl extends Animal implements Flyable, Illable {
    
     @Override

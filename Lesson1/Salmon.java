@@ -1,3 +1,5 @@
+import Lesson2.Swimable;
+
 public class Salmon extends Animal implements Swimable {
     
     @Override

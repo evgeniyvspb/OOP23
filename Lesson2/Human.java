@@ -1,3 +1,4 @@
+package Lesson2;
 public abstract class Human {
     protected String name;
     protected String profession;

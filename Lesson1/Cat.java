@@ -1,3 +1,6 @@
+import Lesson2.Illable;
+import Lesson2.Runnable;
+
 public class Cat extends Animal implements Runnable, Illable {
     private int countPaws;
     

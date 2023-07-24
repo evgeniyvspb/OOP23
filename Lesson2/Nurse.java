@@ -1,3 +1,5 @@
+package Lesson2;
+
 public class Nurse extends Human implements Swimable{
     Boolean ukoli;
     public Nurse(String name, String profession, Integer age, Boolean ukoli) {
